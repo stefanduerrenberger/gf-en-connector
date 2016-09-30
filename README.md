@@ -25,6 +25,7 @@ Due to this limitation, it can take a while for all entries to end up in the Eng
 ## Todo
 - Translations
 - Configuration of EN form fields (If you have additional form fields to Email, First Name, Last name you have to configure them directly in the code at the moment. Ideally you could enter the corresponding name in EN directly in the field setup of the form.
+- Check the response for mismatching field names. Response code from EN is still 200, but it doesn't add the data to the database if that configuration is wrong. 
 
 ## License
 

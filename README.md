@@ -18,6 +18,7 @@ Due to this limitation, it can take a while for all entries to end up in the Eng
 - Go to your form, then Settings -> Engaging Networks
 - Select the checkbox to enable Engaging Networks for that form
 - Enter the ClientID and FormID from Engaging Networks (you need to setup a campaign and a form for it to get these)
+- At the moment, field mapping has to be edited directly in the code. See Line 43 in class-gfenaddon.php. First level is the form ID, second level is "EN Field Name" => "Gravity Form field name"
 
 -> There's also a page in the admin Dashboard Forms > Engaging Networks that lists all EN enabled forms and the latest status changes. If you are getting new submissions, the latest status changes should not be older than 5 minutes.
 
